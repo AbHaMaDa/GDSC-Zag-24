@@ -47,7 +47,7 @@ const click=()=>{
         seteditday(days>31|| days==""?"red":"")
         seteditmonth(months>12 || months==""?"red":"")
         setedityear(years>new Date().getFullYear()|| years==""?"red":"")
-    
+        console.log(editday)
 }
 
 
@@ -94,9 +94,9 @@ const click=()=>{
 
         
             <h1 >
-                <span>{edityear||years==""?"--":diffInYears>=0?diffInYears:"--"}</span>years<br/>
-                <span>{editmonth||months==""?"--":diifInMonths>=0?diifInMonths:"--"}</span>months<br/>
-                <span>{editday||days==""?"--":diffInDays>=0?diffInDays:"--"}</span>days
+                <span>{edityear==undefined||years==""?"--":diffInYears>=0?diffInYears:"--"}</span>years<br/>
+                <span>{editmonth==undefined||months==""?"--":diifInMonths>=0?diifInMonths:"--"}</span>months<br/>
+                <span>{editday==undefined||days==""?"--":diffInDays>=0?diffInDays:"--"}</span>days
             </h1>
 
         </div>
