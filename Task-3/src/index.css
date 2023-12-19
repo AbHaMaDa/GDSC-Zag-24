@@ -15,6 +15,11 @@ code {
 
 .red{
   color: red;
+  
+}
+
+.out-red{
+  outline-color: red;
 }
 
 /* start styling my progect */
@@ -60,7 +65,7 @@ code {
 
 }
 
-.form .box input:focus{
+.out-pir{
   outline-color: #864cff;
 }
 .form button{
