@@ -1,0 +1,32 @@
+.nav{
+    width: 100%;
+    height: 100px;
+    
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav h1{
+    font-size: 20px;
+    font-weight: bold;
+    color: blueviolet;
+    margin-left: 50px;
+}
+.nav ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 80px;
+    
+}
+.nav ul li{
+    margin-right: 50px;
+}
+.nav ul :nth-child(3){
+color: blueviolet;
+border-bottom: 1px solid blueviolet ;
+}

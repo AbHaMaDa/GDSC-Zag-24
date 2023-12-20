@@ -1,0 +1,39 @@
+.content{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: repeat(7,auto);
+    gap: 40px;
+    justify-content: space-around;
+    align-content: center;
+    padding: 50px 0px;
+background-color: aqua;
+perspective:3500px;
+
+
+   
+}
+
+
+.buttons{
+    width: 100%;
+    height: 80px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+    background-color: rgb(183, 130, 49);
+}
+
+
+.buttons button:hover{
+    background-color: blueviolet;
+}
+.buttons button{
+    width: 100px;
+    height:50px ;
+    border-style: none;
+    border-radius: 50px;
+    background-color: cadetblue;
+    color: rgb(18, 13, 4);
+}
