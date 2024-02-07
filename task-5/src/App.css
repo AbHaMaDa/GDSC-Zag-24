@@ -1,0 +1,68 @@
+.flex{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.adviseCard{
+  margin: 150px auto;
+  padding: 40px;
+  
+  width: 400px;
+  height: 200px;
+  background-color: #303a49;
+  border-radius: 20px;
+
+  position: relative;
+}
+
+
+
+.title{
+  margin: 0px;
+  padding: 0px;
+  color: #51ffa7;
+  letter-spacing: 5px;
+
+}
+.text{
+  text-align: center;
+  font-weight: 800;
+  font-size: 20px;
+  width: 330px;
+  color: white;
+  line-height: 30px;
+}
+.pattern{
+ width: 400px;
+ margin-bottom: 20px;
+}
+
+.hold{
+  border-style: none;
+  position: absolute;
+  bottom: -25px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+
+  background-color: #51ffa7;
+
+  justify-content: center;
+  
+}
+
+.hold .dice{
+  width: 20px;
+
+  background-color: #51ffa7;
+ 
+}
+
+.hold:hover{
+  background-color: #71fbb6;
+
+  -webkit-box-shadow: 2px 2px 18px 10px rgba(107,255,161,0.9); 
+  box-shadow: 2px 2px 18px 10px rgba(107,255,161,0.9);
+}

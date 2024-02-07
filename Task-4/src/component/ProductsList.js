@@ -90,9 +90,7 @@ change5=()=>{
         )
         
     }
-    componentDidMount(){
-        
-    }
+    
 }
 
 
