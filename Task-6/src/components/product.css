@@ -1,0 +1,14 @@
+.card{
+    width: 200px;
+    height: 350px !important;
+}
+.card-img-top{
+    width: 50px;
+    height: 150px;
+}
+.card-title{
+    width: 150px;
+}
+span{
+    margin-right: 50px;
+}
