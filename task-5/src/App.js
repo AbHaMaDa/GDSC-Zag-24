@@ -4,11 +4,14 @@ import './App.css';
 function App() {
 const [advice,setadvice]=useState("");
  const [counter,setCounter]=useState("");
+ 
 
 
 // const getAdvise =()=>{
    
 // }
+
+
 
 
  async function getData () {
@@ -17,8 +20,27 @@ const [advice,setadvice]=useState("");
   setadvice(data.slip);
  }
 
+
+
+
+
+  
+
+
+function btnClick (){
+  setCounter(counter+1);
+
+
+
+
+}
+
+
  useEffect(()=>{
   getData();
+
+
+
 
   //    fetch("https://api.adviceslip.com/advice")
   //   .then((response)=>response.json())
@@ -39,12 +61,15 @@ const [advice,setadvice]=useState("");
       <p className='text'>{advice.advice}</p>
       <img className='pattern' src='advice-generator-app-main/images/pattern-divider-desktop.svg'/>
 
-      <button className='hold flex 'onClick={()=>setCounter(counter + 1)}>
+      <button className='hold flex 'onClick={btnClick}>
       <img className='dice' src='advice-generator-app-main/images/icon-dice.svg'/>
       </button>
 
     </div>
   );
+  
+
+
 }
 
 export default App;
