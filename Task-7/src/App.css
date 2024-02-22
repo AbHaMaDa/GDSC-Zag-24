@@ -1,0 +1,60 @@
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+/* sidebar css styling */
+.sidebar-holder{
+    height: 100vh;
+    background-color: #f8f9fa;
+
+}
+
+
+.sidebar-holder ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.sidebar-holder ul li{
+    margin: 10px 10px 20px 10px ;
+}
+
+
+.sidebar-holder ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.sidebar-holder ul li a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+
+
+/* table style */
+.table{
+    text-align: center;
+  
+
+}
+
+form {
+    width: 80%;
+    height: 500px;
+    padding: 20px;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+ 
+}
+
+form .form-group{
+    width: 100%;
+
+}
+  
