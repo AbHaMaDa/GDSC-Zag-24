@@ -1,0 +1,136 @@
+
+/* classes I use */
+
+
+.flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dark-nav{
+  background-color:#231134 !important;
+  color: #ed3561 !important;
+
+}
+
+.dark-content{
+  background-color: #2f1f3e !important;
+  color: #ed3561 !important;
+}
+
+
+
+
+
+/* nav bar styling */
+.nav{
+  padding: 20px !important;
+  background-color: aqua;
+  color: #2f1f3e;
+  
+}
+.nav h1{
+  margin: 0px;
+  padding: 0px;
+}
+
+.nav .switch{
+  width: 180px;
+}
+
+.nav .switch button{
+  cursor: pointer ;
+  width: 60px;
+  height: 40px;
+  border-radius: 30px;
+  border-style: none;
+
+}
+
+.nav .switch .btn-dark{
+   color: white;
+   background-color: black;
+}
+
+.nav .logout{
+  cursor: pointer;
+  width: 120px;
+  height: 40px;
+  color: white;
+  background-color: rgb(230, 12, 12);
+  border-radius: 30px;
+  border-style: none;
+  text-align: center;
+  line-height: 40px;
+  text-decoration: none;
+}
+
+/* sidebar  styling*/
+
+.row{
+  margin: 0px !important;
+  
+}
+.sidebar-holder{
+  padding: 0px !important;
+  background-color: #c291f0;
+  
+  
+}
+.sidebar{
+  padding: 10px;
+ 
+  height: 100vh;
+  text-align: center;
+}
+.sidebar h2{
+  padding: 0px;
+  margin: 0px;
+}
+
+.sidebar h2 a{
+text-decoration: none ;
+color:#231134  ;
+
+}
+
+
+
+/* main  styling*/
+.content{
+  padding: 20px;
+  text-align: center;
+  background-color: rgb(140, 210, 210);
+  color: #2f1f3e;
+}
+
+
+/* form styling */
+
+
+.form{
+  margin: 100px auto;
+  width: 600px;
+  height: 300px;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+ 
+}
+
+.error{
+  color: red;
+}
+.host{
+  text-transform: capitalize;
+  text-align: center;
+  width: 300px;
+  margin: 200px auto;
+}
+.host .links{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
