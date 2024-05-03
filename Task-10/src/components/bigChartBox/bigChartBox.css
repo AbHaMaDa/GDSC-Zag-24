@@ -1,0 +1,11 @@
+.BigChartBox {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.BigChartBox .chart {
+  width: 100%;
+  height: 300px;
+}/*# sourceMappingURL=bigChartBox.css.map */

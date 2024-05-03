@@ -1,0 +1,36 @@
+.PieCartBox {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.PieCartBox .chart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.PieCartBox .options {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  font-size: 14px;
+}
+.PieCartBox .options .option {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+.PieCartBox .options .option .title {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.PieCartBox .options .option .title .dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}/*# sourceMappingURL=pieCartBox.css.map */

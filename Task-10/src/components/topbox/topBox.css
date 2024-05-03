@@ -1,0 +1,35 @@
+.topbox h1 {
+  margin-bottom: 20px;
+}
+.topbox .list .listItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.topbox .list .listItem .user {
+  display: flex;
+  gap: 20px;
+}
+.topbox .list .listItem .user img {
+  width: 40px;
+  height: 40px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+.topbox .list .listItem .user .userText {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.topbox .list .listItem .user .userText .username {
+  font-size: 14px;
+  font-weight: 500;
+}
+.topbox .list .listItem .user .userText .email {
+  font-size: 12px;
+}
+.topbox .list .listItem .amount {
+  font-weight: 500;
+}/*# sourceMappingURL=topBox.css.map */
