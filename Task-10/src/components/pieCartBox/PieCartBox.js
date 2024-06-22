@@ -5,7 +5,6 @@ import "./pieCartBox.scss";
 
 const PieCartBox =(props)=>{
 
-    console.log(props);
     return(
         <div className="PieCartBox" >
             <h1>leads by source</h1>

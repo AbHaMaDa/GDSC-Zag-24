@@ -1,6 +1,7 @@
 {
   "products": [
     {
+      "id": "1",
       "title": "pop",
       "price": "5.95",
       "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
@@ -9,8 +10,7 @@
       "rating": {
         "rate": 3.9,
         "count": 120
-      },
-      "id": "1"
+      }
     },
     {
       "id": "2",

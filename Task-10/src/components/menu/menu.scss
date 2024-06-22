@@ -1,3 +1,4 @@
+@import "../../styles/responsive.scss";
 
 .menu{
     .item{
@@ -7,8 +8,12 @@
         margin-bottom: 20px;
 
         .title{
+            font-size: 12px;
             font-weight: 200px;
             color:#ddd;
+            @include breakpoints(large){
+                display: none;
+            }
         }
         .listItem{
             display: flex;
@@ -18,6 +23,11 @@
             border-radius: 5px;
             &:hover{
                 background-color: #384256;
+            }
+            .listItemTitle{
+                @include breakpoints(large){
+                    display: none;
+                }
             }
         }
     }

@@ -1,0 +1,63 @@
+@import "../../styles/responsive.scss";
+
+.dataTable{
+    width:1000px;
+    align-self: center;
+
+    @include breakpoints(xlarge){
+        width:800px;
+
+    }
+
+    @include breakpoints(large){
+        width:600px;
+
+    }
+    @include breakpoints(medium){
+        width:400px;
+
+    }
+    @include breakpoints(small){
+        width:300px;
+
+    }
+    
+    .dataGrid{
+        background-color: white;
+        padding: 20px;
+
+        .MuiDataGrid-toolbarContainer {
+            flex-direction: row-reverse;
+          
+        }
+        img{
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        
+       .action{
+        width: 50px;
+        display: flex;
+        gap: 15px;      
+
+
+        .view,.delete{
+            width: 30px;
+            height: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+         
+            .img{margin: 10px;
+                width: 20px ;
+                height: 20px ;
+                cursor: pointer;
+            }
+        }
+       }
+      
+    }
+}

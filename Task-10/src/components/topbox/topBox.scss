@@ -1,5 +1,11 @@
-.topbox{
+@import "../../styles/responsive.scss";
 
+
+
+.topbox{
+    @include breakpoints(xxlarge){
+        font-size: 24px;
+    }
 
     h1{
         margin-bottom: 20px;
@@ -23,6 +29,13 @@
                     height: 40px;
                     object-fit: cover;
                     border-radius: 50%;
+                    @include breakpoints(xxlarge){
+                        display: none;
+                    }
+                    @include breakpoints(large){
+                        display: block;
+                    }
+
 
                 }
                 .userText{
@@ -36,6 +49,13 @@
 
                     .email{
                         font-size: 12px;
+
+                        @include breakpoints(xxlarge){
+                            display: none;
+                        }
+                        @include breakpoints(large){
+                            display: block;
+                        }
 
                     }
 

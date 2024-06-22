@@ -8,6 +8,8 @@ import "./styles/global.scss";
 import Navbar from './components/navbar/Navbar';
 import Menu from './components/menu/Menu';
 import Footer from './components/footer/Footer';
+import Product from './pages/product/Product';
+import User from './pages/user/UserSingle';
 
 function App() {
 
@@ -32,6 +34,10 @@ function App() {
               <Route path='/users' Component={Users} />
 
               <Route path='/products' Component={Products} />
+              <Route path='/products/:productId' Component={Product} />
+              <Route path='/users/:userId' Component={User} />
+
+
             </Routes>
           </div>
 
